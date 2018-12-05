@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
 .bg-dark {
     /* background-color: #4182be!important; */
-    background-image: linear-gradient(180deg, #4182be, #4182be 100%,#d9e6f2);
+    background-image: linear-gradient(180deg, #124e66, #124e66 40%, #00869e);
 }
 
 .navbar-nav .nav-link {
@@ -8,6 +11,12 @@
     color: #000;
     padding-right: 30px!important;
     font-size: 1.25em;
+    font-family:'Oswald', sans-serif;
+    letter-spacing: 4px;
+}
+
+.ml-auto {
+    margin: auto;
 }
 
 .nav-link:hover {

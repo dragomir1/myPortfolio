@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #d9e6f2;
+  min-height: 100vh;
 }
 
 /* .App-logo {
@@ -7,7 +9,7 @@
   height: 40vmin;
 } */
 
-.App-header {
+/* .App-header {
   background-color: #d9e6f2;
   min-height: 100vh;
   /*display: flex;
@@ -16,7 +18,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #000; */
-}
+/* } */
 
 /* .App-link {
   color: #61dafb;
