@@ -20,13 +20,13 @@ const contactForm = () => (
             <div className="row">
             <div className="col-md-12">
               <div className="form-group">
-              <textarea className="form-control textarea" rows="3" name="Message" id="Message" placeholder="Communicate with Purpose..." required></textarea>
+              <textarea className="form-control textarea" rows="3" name="Message" id="Message" placeholder="Communicate with Purpose:)" required></textarea>
               </div>
             </div>
             </div>
               <div className="row">
               <div className="col-md-12">
-              <button type="submit" className="btn main-btn pull-right">Send a message</button>
+              <button type="submit" className="btn main-btn pull-right">Send</button>
               </div>
           </div>
         </form>

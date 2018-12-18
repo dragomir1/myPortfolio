@@ -1,13 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+/* @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
 .bg-dark {
-    /* background-color: #4182be!important; */
+    background-color: #4182be!important;
     background-image: linear-gradient(180deg, #124e66, #124e66 40%, #00869e);
 }
 
 .navbar-nav .nav-link {
-    /* color: rgba(255,255,255,.5); */
+    color: rgba(255,255,255,.5);
     color: #000;
     padding-right: 30px!important;
     font-size: 1.25em;
@@ -21,15 +21,15 @@
 
 .nav-link:hover {
   color: #ffd11a!important;
-}
+} */
 
-a {
+/* a {
     color: #fff!important;
-    /* text-decoration: none;
-    background-color: transparent; */
-}
+    text-decoration: none;
+    background-color: transparent;
+} */
 
-.navbar-brand:hover {
+/* .navbar-brand:hover {
     color: #ffd11a!important;
 }
 .navbar-brand {
@@ -42,4 +42,62 @@ a {
     line-height: inherit;
     border-right: 1px solid #fff;
     white-space: nowrap;
+} */
+
+#scrolldown {
+  bottom: 40px;
+  height: 100px;
+  margin-left: -50px;
+  /* position: absolute; */
+  left: 50%;
+  text-align: center;
+  width: 100px;
+  z-index: 100;
+}
+#scrolldown p {
+  font: 700 0.7em/1em 'Avenir',sans-serif;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+  color: #aaa;
+}
+#scrolldown > p {
+  text-transform: uppercase;
+  text-indent: 3px;
+}
+.mouse {
+  border: 2px solid #aaa;
+  border-radius: 13px;
+  display: block;
+  height: 46px;
+  left: 50%;
+  margin: 10px 0 0 -13px;
+  position: absolute;
+  width: 26px;
+}
+.mouse span {
+  display: block;
+  font-size: 1.5em;
+  margin: 6px auto;
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+span p {
+    width: 85%;
+    padding-right: 10px!important;
+    padding-left: 5px!important;
+    padding-top: 5px;
+    margin-bottom: 0;
+    border: none;
+    background-color: #ecf2f8!important;
 }
