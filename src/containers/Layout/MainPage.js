@@ -32,7 +32,7 @@ const MainPage = () => {
             </section>
             <section>
               <div className="parallax-two">
-                <h2>PORTFOLIO</h2>
+                <h2>PROJECTS</h2>
               </div>
             </section>
             <section>
