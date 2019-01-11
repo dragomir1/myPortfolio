@@ -13,7 +13,7 @@ const MainPage = () => {
               <div className="title">
                 <h3>Michael Dragomir</h3>
                 <p className="line-break2 margin-top-10"></p>
-                <h1>Front End / Full Stack - M.E.R.N - React Native</h1>
+                <h1>Front End / Full Stack - M.E.R.N - React - React Native</h1>
               </div>
             </section>
             <section>

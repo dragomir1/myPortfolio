@@ -20,7 +20,7 @@ const contactForm = () => (
             <div className="row">
             <div className="col-md-12">
               <div className="form-group">
-              <textarea className="form-control textarea" rows="3" name="Message" id="Message" placeholder="Communicate with Purpose:)" required></textarea>
+              <textarea className="form-control textarea" rows="3" name="Message" id="Message" placeholder="Communicate with purpose:)" required></textarea>
               </div>
             </div>
             </div>

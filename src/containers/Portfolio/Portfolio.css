@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
 .col-md-4 {
     position: relative;
     width: 30%;
@@ -12,10 +15,20 @@
 }
 
 p {
+    font-family:'Oswald', sans-serif;
     width: 100%;
     padding-right: 10px!important;
     padding-left: 10px!important;
     margin-bottom: 0;
     border: none;
     background-color: #fff;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }

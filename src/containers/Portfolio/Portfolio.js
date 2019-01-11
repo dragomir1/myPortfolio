@@ -22,7 +22,7 @@ const PortfolioItems = () => (
         </iframe>
       </div>
     </div>
-    <div className="col-sm-4 col-md-4">
+    {/*<div className="col-sm-4 col-md-4">
       <div className="embed-responsive embed-responsive-4by3">
         <iframe className="embed-responsive-item"
           src=""
@@ -30,25 +30,25 @@ const PortfolioItems = () => (
           allowFullScreen>
         </iframe>
       </div>
-    </div>
+    </div>*/}
     </div>
     <div className="row">
-      <div className="col-sm-3 col-md-4">
+      <div className="col-sm-4 col-md-4">
         <p>
-          This is a React/Redux App with a Firebase backend.  Login/Register and dynamically build your tasty sandwich.  This App has a modal, an order form, routing, a spinner and persistant state.<br />Github: <a href='https://github.com/dragomir1/REACT-sandwichBuilder' rel="noopener noreferrer" target='_blank'>Project Link</a>
+          This is a React/Redux App with a Firebase backend.  you're able to Login/Register and dynamically build your sandwich.  This App has a modal, an order form, routing, a spinner and holds persistant state.<br />Github: <a href='https://github.com/dragomir1/REACT-sandwichBuilder' rel="noopener noreferrer" target='_blank'>Project Link</a>
         </p>
       </div>
-      <div className="col-sm-3 col-md-4">
+      <div className="col-sm-4 col-md-4">
         <p>
-          This is a full Stack M.E.R.N. App with a MongoDB backend. You're able to Login/Register, create, edit, delete your developer profile.  This App makes calls to the github API to get your projects.<br />Github: <a href='https://github.com/dragomir1/FullStack-MERN-project' rel="noopener noreferrer" target='_blank'>Project Link</a>
+          This is a full Stack M.E.R.N. App with a MongoDB backend. You're able to Login/Register, create, edit, delete your developer profile.  This App makes calls to the github API, fetches your projects and add them to your profile.<br />Github: <a href='https://github.com/dragomir1/FullStack-MERN-project' rel="noopener noreferrer" target='_blank'>Project Link</a>
 
         </p>
       </div>
-      <div className="col-sm-3 col-md-4">
+      {/*<div className="col-sm-4 col-md-4">
         <p>
-            Currently I am building a new React Native project that emposed real world API's. Having alot of fun making it and will be uploaded here as as soon as it's complete .<br />github: link coming soon.
+            Currently I am building a new React Native project that emposed real world API's. Having alot of fun making it and will be uploaded here as as soon as it's complete .  This project will be super cool for me to do<br />github: link coming soon.
         </p>
-      </div>
+      </div>*/}
     </div>
     {/*<div className="row">
       <div className="col-sm-4 col-md-4">
