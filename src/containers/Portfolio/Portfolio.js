@@ -3,6 +3,8 @@ import './Portfolio.css'
 
 const PortfolioItems = () => (
   <div className="container-fluid">
+    <p className="projectText">These are recorded demos of two projects I've built:
+    </p>
     <div className="row">
       <div className="col-sm-4 col-md-4">
           <div className="embed-responsive embed-responsive-4by3">
@@ -16,86 +18,26 @@ const PortfolioItems = () => (
     <div className="col-sm-4 col-md-4">
       <div className="embed-responsive embed-responsive-4by3">
         <iframe className="embed-responsive-item"
-          src="https://www.youtube.com/embed/gDIA666eGnc"
+          src="https://www.youtube.com/embed/X64UU8z7K8c"
           title="movie"
           allowFullScreen>
         </iframe>
       </div>
     </div>
-    {/*<div className="col-sm-4 col-md-4">
-      <div className="embed-responsive embed-responsive-4by3">
-        <iframe className="embed-responsive-item"
-          src=""
-          title="movie"
-          allowFullScreen>
-        </iframe>
-      </div>
-    </div>*/}
     </div>
     <div className="row">
       <div className="col-sm-4 col-md-4">
         <p>
-          This is a React/Redux App with a Firebase backend.  you're able to Login/Register and dynamically build your sandwich.  This App has a modal, an order form, routing, a spinner and holds persistant state.<br />Github: <a href='https://github.com/dragomir1/REACT-sandwichBuilder' rel="noopener noreferrer" target='_blank'>Project Link</a>
+          This is a React/Redux App with a Firebase backend.  You're able to login/register and dynamically build a sandwich.  This App has a modal, an order form, routing, a spinner and holds persistant state.<br />Github: <a href='https://github.com/dragomir1/REACT-sandwichBuilder' rel="noopener noreferrer" target='_blank'>Project Link</a>
         </p>
       </div>
       <div className="col-sm-4 col-md-4">
         <p>
-          This is a full Stack M.E.R.N. App with a MongoDB backend. You're able to Login/Register, create, edit, delete your developer profile.  This App makes calls to the github API, fetches your projects and add them to your profile.<br />Github: <a href='https://github.com/dragomir1/FullStack-MERN-project' rel="noopener noreferrer" target='_blank'>Project Link</a>
-
+          This is a full Stack M.E.R.N. App with a MongoDB backend. You can login/register, create, edit, and delete your profile page.  This App also makes calls to the github API, fetches your projects and adds them to your profile.<br />Github: <a href='https://github.com/dragomir1/FullStack-MERN-project' rel="noopener noreferrer" target='_blank'>Project Link</a>
         </p>
-      </div>
-      {/*<div className="col-sm-4 col-md-4">
-        <p>
-            Currently I am building a new React Native project that emposed real world API's. Having alot of fun making it and will be uploaded here as as soon as it's complete .  This project will be super cool for me to do<br />github: link coming soon.
-        </p>
-      </div>*/}
-    </div>
-    {/*<div className="row">
-      <div className="col-sm-4 col-md-4">
-        <div className="embed-responsive embed-responsive-4by3">
-          <iframe className="embed-responsive-item"
-            src="https://www.youtube.com/embed/iamIhzZ3aAI"
-            title="movie"
-            allowFullScreen>
-          </iframe>
-        </div>
-      </div>
-      <div className="col-sm-4 col-md-4">
-        <div className="embed-responsive embed-responsive-4by3">
-          <iframe className="embed-responsive-item"
-            src="https://www.youtube.com/embed/iamIhzZ3aAI"
-            title="movie"
-            allowFullScreen>
-          </iframe>
       </div>
     </div>
-    <div className="col-sm-4 col-md-4">
-      <div className="embed-responsive embed-responsive-4by3">
-        <iframe className="embed-responsive-item"
-          src="https://www.youtube.com/embed/iamIhzZ3aAI"
-          title="movie"
-          allowFullScreen>
-        </iframe>
-      </div>
-      </div>
-    </div>*/}
-    {/*<div className="row">
-      <div className="col-sm-3 col-md-4">
-        <p>
-        description: This is my body of work. I am always working on something new and exciting.  all of these proects utiizing react, with a backend.<br />github: link
-        </p>
-      </div>
-      <div className="col-sm-3 col-md-4">
-        <p>
-          description: This is my body of work. I am always working on something new and exciting.  all of these proects utiizing react, with a backend.<br />github: link
-        </p>
-      </div>
-      <div className="col-sm-3 col-md-4">
-        <p>
-          description: This is my body of work. I am always working on something new and exciting.  all of these proects utiizing react, with a backend.<br />github: link
-        </p>
-      </div>
-    </div>*/}
+    <p className="projectText"><span className="first-character1">I'm currently working on</span>a hotel reservation APP with GraphQL for the IPhone. This APP will allow you log in/register, find a hotel, make a reservation and perform CRUD operations on it.  {' '}Also, working on a <em>contract</em>{' '}to build a car maintenance MVP for the IPhone using Firebase as a back end.{' '}This will be limited since it's an MVP but will have features accustomed to mobile Apps such as a Splash screen, log in/reg and a dashboard. Both are being built in React Native.</p>
   </div>
 )
 

@@ -13,6 +13,11 @@
   line-height:24px;
 }
 
+.fa-linkedin {
+    content: "\f08c";
+    margin-left: 10px;
+}
+
 .first-character {
   font-weight:400;
   float:
