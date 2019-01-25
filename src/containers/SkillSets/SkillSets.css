@@ -40,7 +40,7 @@ img {
 
 .iconText {
   background-color: #ecf2f8;
-  text-align: center;
+  text-align: center!important;
   font-family:'Source Sans Pro', sans-serif;
 }
 

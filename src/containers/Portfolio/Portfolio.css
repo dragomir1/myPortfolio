@@ -15,7 +15,7 @@
 }
 
 p {
-    font-family:'Oswald', sans-serif;
+    /* font-family:'Source Sans Pro', sans-serif!important; */
     width: 100%;
     padding-right: 10px!important;
     padding-left: 10px!important;
@@ -24,17 +24,27 @@ p {
     background-color: #fff;
 }
 
-.projectText {
+.projectTextTop {
+  font-family:'Source Sans Pro', sans-serif!important;
   text-align: left;
   background: #ecf2f8;
-  margin-bottom: 20px;
   font-size: 18px!important;
   line-height: 1.5!important;
-
+  margin-bottom: 20px;
 }
+.projectText {
+  font-family:'Source Sans Pro', sans-serif!important;
+  text-align: left;
+  background: #ecf2f8;
+  font-size: 18px!important;
+  line-height: 1.5!important;
+  margin-top: 15px;
+}
+
+
 .first-character1 {
   font-weight:400;
-  font-size: 34px;
+  font-size: 35px;
   line-height: 35px;
   padding-right: 4px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -42,7 +52,7 @@ p {
 }
 
 .h3text {
-  font-family: 'Oswald', sans-serif!important;
+  /* font-family:'Source Sans Pro', sans-serif!important; */
   font-size: 30px!important;
   letter-spacing: 5px!important;
   color: #212529!important;

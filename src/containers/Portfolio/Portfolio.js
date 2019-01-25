@@ -3,7 +3,7 @@ import './Portfolio.css'
 
 const PortfolioItems = () => (
   <div className="container-fluid">
-    <p className="projectText">These are recorded demos of two projects I've built:
+    <p className="projectTextTop">Recorded demos of two projects I've built:
     </p>
     <div className="row">
       <div className="col-sm-4 col-md-4">
@@ -37,7 +37,7 @@ const PortfolioItems = () => (
         </p>
       </div>
     </div>
-    <p className="projectText"><span className="first-character1">I'm currently working on</span>a hotel reservation APP with GraphQL for the IPhone. This APP will allow you log in/register, find a hotel, make a reservation and perform CRUD operations on it.  {' '}Also, working on a <em>contract</em>{' '}to build a car maintenance MVP for the IPhone using Firebase as a back end.{' '}This will be limited since it's an MVP but will have features accustomed to mobile Apps such as a Splash screen, log in/reg and a dashboard. Both are being built in React Native.</p>
+    <p className="projectText"><span className="first-character1">I'm currently working on</span>a hotel reservation APP with GraphQL for the IPhone. This APP will allow you log in/register, find a hotel, make a reservation and perform CRUD operations on it.  {' '}Also, working on a <em>contract</em>{' '}to build a car maintenance MVP for the IPhone using Firebase as a back end.{' '}This will be limited since it's an MVP but will have features accustomed to mobile Apps such as a Splash screen, log in/reg and a dashboard.  The dashboard will have features of its own.  Both APPs are being built in React Native.</p>
   </div>
 )
 

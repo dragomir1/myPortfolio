@@ -24,7 +24,7 @@ const MainPage = () => {
             <section>
               <div className="block">
               <div className="embed-responsive embed-responsive-4by3">
-                <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/iamIhzZ3aAI" title="movie" allowFullScreen></iframe>
+                <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/MCgYZ7eEGs8" title="movie" allowFullScreen></iframe>
               </div>
                 <p className="line-break margin-top-10"></p>
                 <About />

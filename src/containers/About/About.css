@@ -18,11 +18,19 @@
     margin-left: 10px;
 }
 
+.medialinks {
+  margin-top: 10px;
+}
+.bio-text {
+  font-family:'Source Sans Pro', sans-serif;
+  font-size: 18px!important;
+}
+
 .first-character {
   font-weight:400;
   float:
   left;
-  font-size: 84px;
+  font-size: 80px;
   line-height: 64px;
   padding-top: 4px;
   padding-right: 8px;
