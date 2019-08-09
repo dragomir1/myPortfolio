@@ -1,83 +1,92 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300, 400, 700);
+@import url(
+  https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,
+  300,
+  400,
+  600,
+  700,
+  900,
+  200italic,
+  300italic,
+  400italic,
+  600italic,
+  700italic,
+  900italic
+);
 
 .col-md-4 {
-    position: relative;
-    width: 30%;
-    min-height: 1px;
-    margin-right: 28px;
-    margin-bottom: 15px;
-    padding-right: 0;
-    padding-left: 0;
-    display: inline-block!important;
-    background-color: #e6e6e6;
-    /* border: 1px #b3b3b3 solid; */
+  position: relative;
+  width: 30%;
+  min-height: 1px;
+  margin-right: 28px;
+  margin-bottom: 15px;
+  padding-right: 0;
+  padding-left: 0;
+  display: inline-block !important;
+  background-color: #e6e6e6;
+  /* border: 1px #b3b3b3 solid; */
 }
 
 p {
-    /* font-family:'Source Sans Pro', sans-serif!important; */
-    width: 100%;
-    padding-right: 10px!important;
-    padding-left: 10px!important;
-    margin-bottom: 0;
-    border: none;
-    background-color: #fff;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 0;
+  border: none;
+  background-color: #fff;
 }
-
+/* 
 .projectTextTop {
-  font-family:'Source Sans Pro', sans-serif!important;
+  font-family: 'Source Sans Pro', sans-serif !important;
   text-align: left;
   background: #ecf2f8;
-  font-size: 18px!important;
-  line-height: 1.5!important;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
   margin-bottom: 20px;
-}
+} */
 .projectText {
-  font-family:'Source Sans Pro', sans-serif!important;
+  font-family: 'Source Sans Pro', sans-serif !important;
   text-align: left;
   background: #ecf2f8;
-  font-size: 18px!important;
-  line-height: 1.5!important;
+  font-size: 20px !important;
+  line-height: 1.5 !important;
   margin-top: 15px;
 }
 
-
 .first-character1 {
-  font-weight:400;
-  font-size: 35px;
+  font-weight: 400;
+  font-size: 30px;
   line-height: 35px;
   padding-right: 4px;
   font-family: 'Source Sans Pro', sans-serif;
   color: #000;
 }
 
-.h3text {
-  /* font-family:'Source Sans Pro', sans-serif!important; */
-  font-size: 30px!important;
-  letter-spacing: 5px!important;
-  color: #212529!important;
+/* .h3text {
+  font-size: 30px !important;
+  letter-spacing: 5px !important;
+  color: #212529 !important;
   text-align: left;
-  padding-bottom: 25px!important;
+  padding-bottom: 25px !important;
   margin-top: 25px;
   margin-left: 8px;
   margin-bottom: 0;
   line-height: 1.5;
+} */
 
-}
-
-#parallax-world-of-ugg p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-align: left;
-  }
+/* #parallax-world-of-ugg p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+} */
 
 .container-fluid {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
