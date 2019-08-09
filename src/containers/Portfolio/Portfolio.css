@@ -55,7 +55,7 @@ p {
 
 .first-character1 {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 35px;
   padding-right: 4px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -74,13 +74,13 @@ p {
   line-height: 1.5;
 } */
 
-/* #parallax-world-of-ugg p {
+#parallax-world-of-ugg p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   text-align: left;
-} */
+}
 
 .container-fluid {
   width: 100%;

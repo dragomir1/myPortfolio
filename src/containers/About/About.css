@@ -2,6 +2,9 @@
   -moz-box-sizing: border-box;
 }
 
+.fa-github {
+  margin-left: 8px;
+}
 .fa-linkedin {
   content: '\f08c';
   margin-left: 10px;
