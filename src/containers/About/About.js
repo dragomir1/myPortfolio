@@ -10,10 +10,9 @@ const About = () => (
     I'm a software developer based in Los Angeles, California. I work hard every
     day at being a better version of myself both personally and professionally.
     Coding, working on algorithms, debugging or planning the stages of a new app
-    challenges my brain the way it likes being challenged. I enjoy engaging with
-    projects that require me to work outside of my comfort and knowledge set as
-    continuing to learn new technologies, enhancing my current skill sets and
-    development techniques are very important to me. I value depth, purpose and
+    challenges my brain the way it likes to be challenged. I enjoy projects that
+    require me to work outside of my comfort zone and expands my knowledge of
+    new technologies and development techniques. I value depth, purpose and
     enjoy connecting with people. I hold dual citizenships and two passports in
     the European Union and the United States.
     <br />
